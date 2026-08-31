@@ -5,7 +5,7 @@
 <h2 align="center">Hi, Chenqiang here.</h2>
 
 <p align="center">
-  Graduate student in Osaka. Still learning.
+  Graduate student in UOsaka. Still learning.
 </p>
 
 <p align="center">
