@@ -1,0 +1,37 @@
+name: Refresh profile content
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Monday 12:17 in Japan (03:17 UTC); off the hour to reduce queue delays.
+    - cron: "17 3 * * 1"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-profile
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out the profile repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Refresh the latest writing section
+        run: python3 scripts/update_readme.py
+
+      - name: Commit changes when needed
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "Profile is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: refresh latest writing"
+          git push
