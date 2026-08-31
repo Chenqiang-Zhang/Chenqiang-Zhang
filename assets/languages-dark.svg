@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="360" viewBox="0 0 680 360" role="img" aria-labelledby="title desc">
+  <title id="title">Languages used by file size</title>
+  <desc id="desc">Top languages calculated from GitHub Linguist code sizes across public, non-fork repositories.</desc>
+  <style>
+    .heading { font: 650 24px ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; fill: #e6edf3; }
+    .language { font: 600 16px ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; fill: #e6edf3; }
+    .percent { font: 14px ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; fill: #8b949e; font-variant-numeric: tabular-nums; }
+    .note { font: 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #8b949e; }
+  </style>
+  <rect x="1" y="1" width="678" height="358" rx="12" fill="#0d1117" stroke="#30363d" />
+  <text x="32" y="52" class="heading">Languages Used (By File Size)</text>
+  <rect x="32" y="76" width="616" height="14" rx="7" fill="#21262d" />
+  <clipPath id="bar"><rect x="32" y="76" width="616" height="14" rx="7" /></clipPath>
+  <g clip-path="url(#bar)"><rect x="32.00" y="76" width="394.74" height="14" fill="#3572a5" /><rect x="426.74" y="76" width="102.91" height="14" fill="#3178c6" /><rect x="529.65" y="76" width="59.55" height="14" fill="#ff5a03" /><rect x="589.20" y="76" width="47.27" height="14" fill="#663399" /><rect x="636.47" y="76" width="4.72" height="14" fill="#89e051" /><rect x="641.19" y="76" width="3.03" height="14" fill="#41b883" /><rect x="644.22" y="76" width="2.55" height="14" fill="#f1e05a" /><rect x="646.77" y="76" width="1.00" height="14" fill="#e34c26" /><rect x="647.46" y="76" width="1.00" height="14" fill="#1a7f37" /></g>
+  <circle cx="39" cy="128" r="7" fill="#3572a5" /><text x="57" y="134" class="language">Python</text><text x="312" y="134" text-anchor="end" class="percent">64.08%</text><circle cx="349" cy="128" r="7" fill="#3178c6" /><text x="367" y="134" class="language">TypeScript</text><text x="622" y="134" text-anchor="end" class="percent">16.71%</text><circle cx="39" cy="167" r="7" fill="#ff5a03" /><text x="57" y="173" class="language">Astro</text><text x="312" y="173" text-anchor="end" class="percent">9.67%</text><circle cx="349" cy="167" r="7" fill="#663399" /><text x="367" y="173" class="language">CSS</text><text x="622" y="173" text-anchor="end" class="percent">7.67%</text><circle cx="39" cy="206" r="7" fill="#89e051" /><text x="57" y="212" class="language">Shell</text><text x="312" y="212" text-anchor="end" class="percent">0.77%</text><circle cx="349" cy="206" r="7" fill="#41b883" /><text x="367" y="212" class="language">Vue</text><text x="622" y="212" text-anchor="end" class="percent">0.49%</text><circle cx="39" cy="245" r="7" fill="#f1e05a" /><text x="57" y="251" class="language">JavaScript</text><text x="312" y="251" text-anchor="end" class="percent">0.41%</text><circle cx="349" cy="245" r="7" fill="#e34c26" /><text x="367" y="251" class="language">HTML</text><text x="622" y="251" text-anchor="end" class="percent">0.11%</text><circle cx="39" cy="284" r="7" fill="#1a7f37" /><text x="57" y="290" class="language">Dockerfile</text><text x="312" y="290" text-anchor="end" class="percent">0.09%</text>
+  <text x="32" y="338" class="note">GitHub Linguist · public non-fork repositories</text>
+</svg>

@@ -18,19 +18,14 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Chenqiang-Zhang/Chenqiang-Zhang/main/assets/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Chenqiang-Zhang/Chenqiang-Zhang/main/assets/github-contribution-grid-snake.svg" />
-    <img alt="Chenqiang's contribution graph animation" src="assets/github-contribution-grid-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/overview-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/overview.svg" />
+    <img alt="Chenqiang's GitHub statistics" src="assets/overview.svg" width="49%" />
   </picture>
-</p>
-
-<h3 align="center">Languages in my public repositories</h3>
-
-<p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/language-stats-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="assets/language-stats.svg" />
-    <img alt="Programming language statistics for Chenqiang's public repositories" src="assets/language-stats.svg" width="680" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/languages.svg" />
+    <img alt="Languages used in Chenqiang's public repositories" src="assets/languages.svg" width="49%" />
   </picture>
 </p>
 
