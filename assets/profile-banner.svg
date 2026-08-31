@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
   <title id="title">Chenqiang Zhang</title>
-  <desc id="desc">Human–AI interaction, conversational AI, and Physical RPA, represented as three connected research nodes.</desc>
+  <desc id="desc">An abstract constellation for learning, making, and writing.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#07111f"/>
@@ -38,11 +38,11 @@
   <path d="M0 312 C210 276 330 352 540 306 S900 262 1200 318" fill="none" stroke="url(#accent)" stroke-width="2" stroke-opacity=".35"/>
 
   <g transform="translate(72 76)">
-    <text x="0" y="0" fill="#8da8c7" class="label">RESEARCHER · ENGINEER · BUILDER</text>
+    <text x="0" y="0" fill="#8da8c7" class="label">STUDENT · CURIOUS · STILL LEARNING</text>
     <text x="0" y="68" fill="#f4f8ff" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="52" font-weight="720" letter-spacing="-.8">Chenqiang Zhang</text>
     <rect x="0" y="91" width="455" height="3" rx="2" fill="url(#accent)"/>
-    <text x="0" y="133" fill="#c9d8eb" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="19">Human–AI Interaction · Conversational AI · Physical RPA</text>
-    <text x="0" y="176" fill="#7896b8" class="label">OSAKA, JAPAN  /  SYSTEMS THAT STUDY, SPEAK &amp; ACT</text>
+    <text x="0" y="133" fill="#c9d8eb" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="19">Learning, building &amp; writing along the way</text>
+    <text x="0" y="176" fill="#7896b8" class="label">OSAKA, JAPAN  /  NOTES FROM THE PROCESS</text>
   </g>
 
   <g transform="translate(870 180)">
@@ -52,20 +52,19 @@
 
     <g transform="translate(-126 -98)">
       <circle r="47" class="node" stroke="#63e6d7"/>
-      <text text-anchor="middle" y="5" fill="#bff9f2" class="label">H–AI</text>
+      <text text-anchor="middle" y="5" fill="#bff9f2" class="label">LEARN</text>
     </g>
     <g transform="translate(135 -83)">
       <circle r="47" class="node" stroke="#72a8ff"/>
-      <text text-anchor="middle" y="5" fill="#c7dcff" class="label">DIALOGUE</text>
+      <text text-anchor="middle" y="5" fill="#c7dcff" class="label">MAKE</text>
     </g>
     <g transform="translate(93 111)">
       <circle r="47" class="node" stroke="#f29bd5"/>
-      <text text-anchor="middle" y="5" fill="#ffd2ec" class="label">RPA</text>
+      <text text-anchor="middle" y="5" fill="#ffd2ec" class="label">WRITE</text>
     </g>
     <circle r="68" fill="#101d31" stroke="url(#accent)" stroke-width="2.4"/>
     <circle r="54" fill="none" stroke="#d8e8ff" stroke-opacity=".12"/>
-    <text text-anchor="middle" y="-5" fill="#f4f8ff" class="label">INTERACTIVE</text>
-    <text text-anchor="middle" y="15" fill="#f4f8ff" class="label">AI SYSTEMS</text>
+    <text text-anchor="middle" y="5" fill="#f4f8ff" class="label">HELLO</text>
 
     <circle class="motion" r="4" fill="#9ff4e9" filter="url(#softGlow)">
       <animateMotion dur="3.8s" repeatCount="indefinite"><mpath href="#p1"/></animateMotion>
